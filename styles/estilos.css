@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus {
+    border: 1px solid rgb(16, 16, 16);
+}
+.celda{
+    border: none;
+    border-left: 1px solid black;
+}
+.contenido{
+    height: 100vh;
+}
+@media screen and (max-width: 450px) {
+    .contenido{
+        height: auto;
+    }
+}
+.resolucion{
+    height: 90%;
+    overflow-y: auto;
+}
+.escondido{
+    display: none;
+}
